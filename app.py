@@ -166,4 +166,4 @@ access_token = get_twitch_access_token(client_id, client_secret)
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=443, debug=False)
